@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Next-15-Azure-Auth | Microsoft Entra ID',
-  description: 'A Next-Auth v5 template for Microsoft Entra ID authentication',
+  title: 'AdminCommand',
+  description: 'Microsoft 365 Command Center',
 };
 
 export default function RootLayout({

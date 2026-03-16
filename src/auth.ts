@@ -1,7 +1,12 @@
 import NextAuth from 'next-auth';
 import { authConfig } from '@/config/auth.config';
 
-// https://authjs.dev/guides/upgrade-to-v5
+declare module 'next-auth' {
+  interface Session {
+    accessToken?: string;
+  }
+}
+
 export const {
   auth,
   signIn,
